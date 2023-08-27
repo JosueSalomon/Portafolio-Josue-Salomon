@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+h4 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.btn-outline:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Navbar */
+#navbar {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar a {
+    color: #000;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 12px;
+}
+
+#navbar img {
+    height: 40px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Showcase */
+#showcase {
+    background: url('/img/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding: 100px;
+}
+
+#showcase .btn {
+    margin-top: 250px;
+}
+
+/* Projects */
+#projects {
+    padding: 80px 0;
+}
+
+.projects-row {
+    display: flex;
+}
+
+.projects-row img {
+    width: 100%;
+}
+
+/* About */
+#about {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.about-row {
+    display: flex;
+}
+
+.about-row-experience,
+.about-row-me {
+    width: 50%;
+    padding-left: 50px;
+}
+
+/* Contact */
+#contact {
+    padding: 80px 0;
+}
+
+.contact-row {
+    display: flex;
+}
+
+.contact-row-icon {
+    width: 33%;
+    text-align: center;
+}
+
+.contact-row-icon img {
+    height: 60px;
+}
+
+/* Footer */
+#mainfooter {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* styles.css */
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #24292e;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(27, 31, 35, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #1e2327;
+}
+
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0077b5;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.linkedin-button:hover {
+    background-color: #005f8d;
+}
+
+.tecnologia {
+    display: inline-block;
+    margin: 15px;
+}
+
+.tecnologia img {
+    max-width: 100px;
+    height: auto;
+}
+
+.tecnologia p {
+    font-size: 14px;
+}
+
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto; /* Agrega esta línea para habilitar el desplazamiento */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 80%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Agrega una sombra al modal */
+    position: relative; /* Ajusta la posición del contenido relativo */
+}
+
+/* Resto de estilos se mantienen iguales */
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgProjecto{
+    width: 100%;
+    height: 100%;
+}

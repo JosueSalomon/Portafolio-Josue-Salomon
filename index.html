@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/estilos.css" />
+		<link rel="stylesheet" media="screen and (max-width:768px)" href="assets/mobile.css" />
+		<title>Portfolio Josue Salomon</title>
+	</head>
+	<body>
+		<header id="mainheader">
+			<nav id="navbar">
+				<div class="container">
+					<a href="#mainheader" class="logo"><img src="assets/img/logo.png" alt="" /></a>
+					<ul>
+                        <li><a href="#about">Sobre mi</a></li>
+						<li><a href="#proyectos">proyectos</a></li>
+						
+                        <li><a href="#tecnologias">Conocimientos</a></li>
+                        <li><a href="#certificados">Certificados</a></li>
+						<li><a href="#contact">Contactarme</a></li>
+                        
+					</ul>
+				</div>
+			</nav>
+			<div id="showcase">
+				<div style="padding-bottom: 10%;" class="container">
+					<img style="width: 300px; height: 300px; " src="assets/img/patricio.gif" alt="">
+				</div>
+			</div>
+		</header>
+
+		<section id="proyectos">
+			<div class="container">
+				<h2>proyectos</h2>
+				<div class="projects-row">
+					<div class="projects-row-detail">
+						<img class="imgProjecto" src="assets/img/portfolio-gasolinera.jpg" alt="" />
+					</div>
+					<div class="projects-row-detail">
+						<img class="imgProjecto" src="assets/img/arbolesAlgoritmo.png" alt="" />
+					</div>
+					<div class="projects-row-detail">
+						<img class="imgProjecto" src="assets/img/Readigo.jpeg" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <div id="projectModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modalImage" src="" alt="Project Image">
+                <p id="modalDescription"></p>
+                <div id="modalTechnologies"></div>
+            </div>
+        </div>
+
+		<section id="about">
+			<div class="container">
+				<h2>About</h2>
+				<div class="about-row">
+					<div class="about-row-experience">
+						<h4>Experiencia</h4>
+						<p class="large">Estudiante UNAH </p>
+					</div>
+					<div class="about-row-me">
+						<h4>Sobre mi</h4>
+                        <img style="width: 30%;height: 45%;border-radius: 100%;" src="assets/img/Yo.jpg" alt="">
+						<p>
+							¡Hola! Soy Josue, un entusiasta estudiante de Ingeniería en Sistemas con una pasión por la tecnología y la resolución de problemas. 
+                            Actualmente, estoy en la búsqueda constante de conocimiento y experiencias que me permitan explorar y comprender el mundo en constante evolución de la informática.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <section id="tecnologias" style="text-align: center; padding: 20px;">
+            <h2 style="margin-bottom: 10px">Tecnologías que Manejo</h2>
+            
+            <div class="tecnologia">
+                <img src="assets/img/c++.png" alt="C++">
+                <p>C++, un lenguaje de programación versátil y eficiente, ampliamente utilizado en desarrollo de software.</p>
+            </div>
+
+            <div class="tecnologia">
+                <img src="assets/img/java.png" alt="Java">
+                <p>Java, el lenguaje conocido por su lema "Escribe una vez, ejecuta en cualquier lugar".</p>
+            </div>
+            
+            <div class="tecnologia">
+                <img src="assets/img/html.png" alt="HTML">
+                <p>HTML, el lenguaje que estructura la web y define su contenido semántico.</p>
+            </div>
+
+            <div class="tecnologia">
+                <img src="assets/img/js.png" alt="JavaScript">
+                <p>JavaScript, el alma de la web, permite crear interactividad y dinamismo en las páginas.</p>
+            </div>
+            
+            <div class="tecnologia">
+                <img src="assets/img/css.png" alt="CSS">
+                <p>CSS, el pincel digital que da vida a los diseños y la estética de la web.</p>
+            </div>
+            
+            <div class="tecnologia">
+                <img src="assets/img/nodejs.png" alt="Node.js">
+                <p>Node.js, el motor que permite ejecutar JavaScript en el servidor, revolucionando el desarrollo backend.</p>
+            </div>
+            
+            <div class="tecnologia">
+                <img src="assets/img/ts.png" alt="TypeScript">
+                <p>TypeScript, el compañero tipado de JavaScript, añadiendo robustez a las aplicaciones.</p>
+            </div>
+
+            <div class="tecnologia">
+                <img src="assets/img/mongodb.png" alt="MongoDB">
+                <p>MongoDB, una base de datos NoSQL que permite almacenar datos en formato JSON de manera escalable y flexible.</p>
+            </div>
+
+        </section>
+
+        <section id="certificados">
+            <div class="container">
+                <h2>Certificados</h2>
+                <div class="certificado">
+                    <h3>Curso para aprender</h3>
+                    <p>Descripción: Certificado de finalización del curso aprender a aprender.</p>
+                    <embed src="assets/cursos/Aprender a aprender.pdf" type="application/pdf" width="100%" height="500px">
+                </div>
+                <div class="certificado">
+                    <h3>Curso de html y css</h3>
+                    <p>Descripción: Certificado de finalización del curso de html y css.</p>
+                    <embed src="assets/cursos/HTML5 y CSS3 parte 4_Avanzando en CSS.pdf" type="application/pdf" width="100%" height="500px">
+                </div>
+                <div class="certificado">
+                    <h3>juegos con html y js</h3>
+                    <p>Descripción: Certificado de finalización del curso de juegos con html y js.</p>
+                    <embed src="assets/cursos/Lógica de programación_practicando con juegos y animaciones.pdf" type="application/pdf" width="100%" height="500px">
+                </div>
+                <!-- Agrega más certificados de manera similar -->
+            </div>
+        </section>
+        
+
+		<section id="contact">
+			<div class="container">
+				<h2>Formas de contactarme</h2>
+				<div class="contact-row">
+					<div class="contact-row-icon">
+						<img src="assets/img/icon-address.png" alt="" />
+						<p>Tegucigalpa, Honduras</p>
+					</div>
+					<div class="contact-row-icon">
+						<img src="assets/img/icon-mail.png" alt="" />
+						<p>josueisacsalomonlanda@gmail.com</p>
+					</div>
+					<div class="contact-row-icon">
+						<img src="assets/img/icon-phone.png" alt="" />
+						<p>+504 8945 3920</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="mainfooter">
+			<div class="container">
+				<a href="https://github.com/JosueSalomon" target="_blank" class="github-button">Ir a GitHub</a>
+                <a href="https://www.linkedin.com/in/josue-isac-salomon-landa-00210b218/" target="_blank" class="linkedin-button">Ir a LinkedIn</a>
+
+			</div>
+		</footer>
+	</body>
+<script src="assets/controlador.js"></script>
+    
+</html>
